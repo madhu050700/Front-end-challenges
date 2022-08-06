@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      margin: 0;
+      background-color: hsl(185, 75%, 39%);
+    }
+
+    .pattern1 {
+      transform: rotate(180deg);
+
+    }
+
+    .pattern2 {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
+    .image {
+      height: 80px;
+      width: 85px;
+      position: absolute;
+      top: 70px;
+      left: 113px;
+      border-radius: 90px;
+      border: solid 5px white;
+
+    }
+
+    .box {
+      background-color: white;
+      width: 20%;
+      padding: 105px 12px 137px 10px;
+      border-radius: 12px;
+      margin: auto;
+      position: relative;
+      bottom: 200px;
+      font-family: 'Kumbh Sans', sans-serif;
+      font-size: 18px;
+
+
+    }
+
+    .box1 {
+      width: 322px;
+      height: 115px;
+      background-image: url(images/bg-pattern-card.svg);
+      position: absolute;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      left: 0;
+      top: 0;
+
+    }
+
+    .text {
+      position: relative;
+      top: 80px;
+      left:90px;
+      border-spacing: 3px;
+      color:hsl(229, 23%, 23%);
+      font-weight: 700;
+    }
+    span{
+      color:hsl(0, 0%, 59%);
+      font-weight: 400;
+    }
+
+    .text1 {
+      font-size: 12px;
+      color: hsl(0, 0%, 59%);
+
+    }
+    hr{
+      position:relative;
+      top:85px;
+      margin:0;
+    }
+    .text2{
+      position:relative;
+      top:110px;
+      border-spacing: 40px 0;
+      color:hsl(229, 23%, 23%);
+      font-weight: 700;
+
+    }
+    .word{
+      position: relative;
+      top:75px;
+      text-align: center;
+      font-size: 12px;
+      color:hsl(0, 0%, 59%);
+
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <svg class="pattern1" width="768" height="400" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+          <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+          <stop stop-color="#53FFEE" offset="99.94%" />
+        </linearGradient>
+      </defs>
+      <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5" />
+    </svg>
+    <svg class="pattern2" width="768" height="400" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+          <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+          <stop stop-color="#53FFEE" offset="99.94%" />
+        </linearGradient>
+      </defs>
+      <ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25" />
+    </svg>
+    <div class="box">
+      <table class="text">
+        <tr>
+          <td>
+            Victor Crest
+          </td>
+          <td>
+          <span>26</span>
+          </td>
+        </tr>
+      </table>
+      <p class="word">
+        London
+      </p>
+      <div class="box1">
+      </div>
+      <img class="image" src="images/image-victor.jpg" />
+      <hr />
+      <table class="text2" >
+        <tr>
+
+          <td>
+            80K
+          </td>
+
+          <td>
+            803K
+          </td>
+
+          <td>
+            1.4K
+          </td>
+        </tr>
+        <tr class="text1" cellpadding="5px" >
+
+          <td>
+            Followers
+          </td>
+
+          <td>
+            Likes
+          </td>
+
+          <td>
+            Photos
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Madhumitha Sivakumaran</a>.
+    </div>
+  </div>
+</body>
+
+</html>
