@@ -84,3 +84,11 @@ border-bottom-right-radius: 10px;
   font-weight: 700;
   line-height: 2;
 }
+@media screen and (max-width:992px) {
+  .br{
+    border-bottom-left-radius:0;
+  }
+  .br-2{
+  border-bottom-left-radius:10px;
+  }
+}
