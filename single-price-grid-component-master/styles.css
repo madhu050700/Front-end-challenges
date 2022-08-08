@@ -1,0 +1,86 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  font-family: 'Karla',sans-serif;
+  font-size: 15px;
+  background-color:  hsl(204, 43%, 93%);
+
+}
+h1{
+  display: inline-block;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+h4{
+  color:hsl(179, 62%, 43%);
+  font-weight: 700;
+  line-height: 2;
+}
+ul{
+  list-style: none;
+  opacity: 0.7;
+  padding-left: 0;
+  font-weight: 400;
+}
+span{
+  display: inline-block;
+  position:relative;
+  bottom:7px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.bg{
+  background-color:hsl(71, 73%, 54%);
+  color:white;
+  margin-top:1rem;
+}
+.br{
+  border-bottom-left-radius: 10px;
+}
+.br-2{
+border-bottom-right-radius: 10px;
+}
+.fullColor{
+  background-color: white;
+}
+.halfColor{
+  background-color: hsl(179, 62%, 43%);
+  color:white;
+}
+.halfColor-2{
+  background-color: hsl(179, 62%, 43%);
+  color:white;
+  opacity:0.8;
+}
+.heading{
+  color:hsl(71, 73%, 54%);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.fullColor, .halfColor, .halfColor-2{
+  padding:2.3rem;
+}
+.para{
+  opacity:0.7;
+  font-weight: 400;
+}
+.paragraph{
+  color:hsl(218, 22%, 67%);
+  font-weight: 400;
+  line-height: 1.5;
+}
+.title{
+  font-weight: 700;
+  line-height: 2;
+}
