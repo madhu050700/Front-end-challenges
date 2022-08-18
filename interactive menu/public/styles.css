@@ -1,0 +1,86 @@
+body{
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass",sans-serif;
+  font-size: 13px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;/* Setting the height of the bosy equal to viewport */
+}
+h1{
+ color:white;
+ margin-bottom: 10px;
+ font-weight: 700;
+}
+p{
+  color:hsl(217, 12%, 63%);
+  margin-bottom: 35px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+#submit{
+  background-color: hsl(25, 97%, 53%);
+  margin-top: 35px ;
+  border: 0;
+  border-radius: 20px;
+  width:100%;
+  padding:10px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:white;
+  font-weight: 400;
+}
+.rateImg{
+  background-color: hsl(216, 12%, 54%);
+  padding:12px;
+  border-radius: 50%;
+}
+.attribution{
+   font-size: 11px;
+   text-align: center;
+   margin-top: 50px;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+.box, .container{
+  width:20%;
+  background-color: hsl(213, 19%, 18%);
+  padding:30px;
+  border-radius: 20px;
+}
+.container{
+  text-align: center;
+  padding-bottom: 0;
+}
+.rating{
+  border:0;
+  border-radius: 50%;
+  padding:13px 16px;
+  margin-right: 15px ;
+  background-color: hsl(216, 12%, 54%);
+}
+.rating:hover{
+background-color:hsl(25, 97%, 53%) ;
+color:white;
+}
+
+#submit:hover{
+  background-color: white;
+  color:hsl(25, 97%, 53%);
+}
+
+#userRating{
+  color:hsl(25, 97%, 53%);
+  background-color:hsl(216, 12%, 54%) ;
+  display: inline-block;
+  margin:22px 0;
+  padding:7px;
+  border-radius: 20px;
+}
+#thankyou{
+  margin-top: 5px;
+}
